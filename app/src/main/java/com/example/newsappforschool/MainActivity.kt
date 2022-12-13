@@ -1,13 +1,15 @@
 package com.example.newsappforschool
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportActionBar?.hide()
 
         val buttonhome = findViewById<Button>(R.id.buttonHome)
         val buttoneconomy = findViewById<Button>(R.id.buttonEconomy)
