@@ -48,4 +48,5 @@ dependencies {
 
     //images implementation
     implementation ("io.coil-kt:coil:1.3.0")
+
 }
