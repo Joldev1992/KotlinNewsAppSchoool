@@ -8,6 +8,7 @@ import android.text.Html
 import android.text.Spanned
 import android.widget.ImageView
 import android.widget.TextView
+
 import coil.load
 
 class NewsDetails : AppCompatActivity() {
